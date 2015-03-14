@@ -1,0 +1,8 @@
+"What happens when you initialize a repository? Why do you need to do it?"
+
+The .git hidden directory is created within current directory. Initially there
+are no commits.
+
+"How is the staging area different from the working directory and the repository? What value do you think it offers?"
+
+Files in the working directory are not automatically tracked by git, until added to the staging area with "git add <filename>". The repository (I think) is the commit history of all files that have been added. I'm hazy on the repository concept.
