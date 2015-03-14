@@ -6,3 +6,11 @@ are no commits.
 "How is the staging area different from the working directory and the repository? What value do you think it offers?"
 
 Files in the working directory are not automatically tracked by git, until added to the staging area with "git add <filename>". The repository (I think) is the commit history of all files that have been added. I'm hazy on the repository concept.
+
+"How can you use the staging area to make sure you have one commit per logical change?"
+
+If multiple files are part of the logical change, you can add each file to the staging area after making necessary changes but prior to committing.
+
+"What are some situations when branches would be helpful in keeping your history organized? How would branches help?"
+
+Could add a new branch when testing an experimental feature, when we want to separately maintain a version of the main project without it as well.
