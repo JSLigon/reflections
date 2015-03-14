@@ -1,0 +1,7 @@
+"How can you use the commands git log and git diff to view the history of files?"
+
+git log shows the commit history (dates, commit IDs, commit notes / comments). git diff can be used in conjunction with the IDs found in the log to see the differences between two commits.
+
+"How might using version control make you more confident to make changes that could break something?"
+
+It provides a way to go back to a state before the error was introduced, and also makes it easier to find the difference that constituted the error.
