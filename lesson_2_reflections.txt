@@ -14,3 +14,7 @@ If multiple files are part of the logical change, you can add each file to the s
 "What are some situations when branches would be helpful in keeping your history organized? How would branches help?"
 
 Could add a new branch when testing an experimental feature, when we want to separately maintain a version of the main project without it as well.
+
+"How do the diagrams help you visualize the branch structure?"
+
+With a diagram you can see what the parent node is for any node. Anyway this just seems obvious, of course diagrams help you visualize the tree structure of the nodes.
