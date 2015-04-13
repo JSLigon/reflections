@@ -18,3 +18,7 @@ Could add a new branch when testing an experimental feature, when we want to sep
 "How do the diagrams help you visualize the branch structure?"
 
 With a diagram you can see what the parent node is for any node. Anyway this just seems obvious, of course diagrams help you visualize the tree structure of the nodes.
+
+"What is the result of merging two branches together? Why do we represent it in the diagram the way we do?"
+
+Changes that were added to the common parent by one or both children are part of the merge. Changes deleted by either are not part of the merge. Any line included in both children is part of the merge.
