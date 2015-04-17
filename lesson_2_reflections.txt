@@ -22,3 +22,9 @@ With a diagram you can see what the parent node is for any node. Anyway this jus
 "What is the result of merging two branches together? Why do we represent it in the diagram the way we do?"
 
 Changes that were added to the common parent by one or both children are part of the merge. Changes deleted by either are not part of the merge. Any line included in both children is part of the merge.
+
+"What are the pros and cons of Git’s automatic merging vs. always doing merges manually?"
+
+Pro: Automatic merging should be less error prone and since it operates systematically, will become easier to use with practice. You're always following the same system.
+
+Con: When you do the merge manually, you can take into account the intent behind the changes that happened within each branch. So manual might be better if you're very familiar with what is going on in each branch, whereas git's automated approach won't be able to incorporate that knowledge.
